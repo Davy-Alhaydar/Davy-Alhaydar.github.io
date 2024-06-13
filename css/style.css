@@ -5,3 +5,14 @@ width: 25%;
 .btn-nav{
     width: 10%;
 }
+
+.nav-section{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    font-family: 'Seri EA', sans-serif;
+}
+
+/* .nav-section:active {
+    color: rgb(69, 69, 69);
+} */
