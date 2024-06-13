@@ -13,6 +13,6 @@ width: 25%;
     font-family: 'Seri EA', sans-serif;
 }
 
-/* .nav-section:active {
+.nav-hover:active {
     color: rgb(69, 69, 69);
-} */
+}
