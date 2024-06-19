@@ -1,3 +1,9 @@
+body{
+    background-color: black;
+}
+
+
+/* Nav  */
 .img-logo{
 width: 25%;
 }
@@ -16,8 +22,19 @@ width: 25%;
 .nav-hover:active {
     color: rgb(69, 69, 69);
 }
-
+ 
+/* Home */
 .home-section{
     font-family: 'ADLaM Display', sans-serif;
-    
+
 }
+
+.title-text{
+    color: rgb(33, 123, 143);
+color: linear-gradient(90deg, rgba(5,11,93,1) 23%, rgba(31,123,143,1) 62%);
+
+/* background: rgb(0,5,80);
+background: linear-gradient(94deg, rgba(0,5,80,1) 23%, rgba(23,94,110,1) 79%); */
+}
+
+/* AboutMe */
