@@ -8,6 +8,12 @@ body{
 width: 25%;
 }
 
+.nav-links:hover{
+    background-color: rgb(33, 123, 143);
+    color: linear-gradient(90deg, rgba(5,11,93,1) 23%, rgba(31,123,143,1) 62%);
+    border-radius: 5%;
+}
+
 .btn-nav{
     width: 10%;
 }
@@ -24,6 +30,7 @@ width: 25%;
 }
  
 /* Home */
+
 .home-section{
     font-family: 'ADLaM Display', sans-serif;
 }
@@ -36,7 +43,23 @@ color: linear-gradient(90deg, rgba(5,11,93,1) 23%, rgba(31,123,143,1) 62%);
 background: linear-gradient(94deg, rgba(0,5,80,1) 23%, rgba(23,94,110,1) 79%); */
 }
 
+.cards-home{
+    margin-top: 50%;
+}
+
 /* AboutMe */
- .aboutMe-section{
+ .aboutMe-section {
     font-family: 'ADLaM Display', sans-serif;
  }
+
+ /* chart.js */
+ .chartjs-section {
+    font-family: 'ADLaM Display', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.chart-container {
+    width: 70%;
+    margin: auto;
+}
