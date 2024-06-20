@@ -3,7 +3,7 @@ body {
 }
 
 
-/* Nav  */
+/* Nav-section  */
 .img-logo {
     width: 25%;
 }
@@ -29,7 +29,18 @@ body {
     color: rgb(69, 69, 69);
 }
 
-/* Home */
+/* Home-section */
+
+
+.welkom-home{
+    font-size: 350%;
+    margin-top: 5%;
+}
+
+.margin-cards-home{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
 .home-section {
     font-family: 'ADLaM Display', sans-serif;
@@ -47,7 +58,7 @@ background: linear-gradient(94deg, rgba(0,5,80,1) 23%, rgba(23,94,110,1) 79%); *
     margin-top: 50%;
 }
 
-/* AboutMe */
+/* AboutMe-section */
 .aboutMe-section {
     font-family: 'ADLaM Display', sans-serif;
 }
@@ -63,9 +74,32 @@ background: linear-gradient(94deg, rgba(0,5,80,1) 23%, rgba(23,94,110,1) 79%); *
     background-color: black;
     color: white;
     text-align: center;
+    /* color: rgba(38, 0, 38, 0.258);
+    color: rgba(83, 1, 83, 0.941); */
 }
 
 .chart-container {
     width: 70%;
     margin: auto;
+}
+
+/* projects-section */
+
+.projects-section {
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.custom-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
