@@ -103,3 +103,15 @@ background: linear-gradient(94deg, rgba(0,5,80,1) 23%, rgba(23,94,110,1) 79%); *
     height: 200px;
     object-fit: cover;
 }
+
+/* Contact-section */
+
+.logos-contact-section{
+    color: rgb(33, 123, 143);
+    color: linear-gradient(90deg, rgba(5, 11, 93, 1) 23%, rgba(31, 123, 143, 1) 62%);
+}
+
+.btn-contact-section{
+    background-color: rgb(33, 123, 143);
+    background-color: linear-gradient(90deg, rgba(5, 11, 93, 1) 23%, rgba(31, 123, 143, 1) 62%);
+}
